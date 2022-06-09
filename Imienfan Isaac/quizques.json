@@ -1,0 +1,50 @@
+[{"question" :"what does 'async' do in a function",
+  "answers" :{
+      "answer1":"catches error",
+      "answer2": "awaits a response",
+      "answer3": "returns a promise"
+  },
+  "right_ans": 3,
+  "points": 4
+},
+{
+  "question" :"which of thse is a semantic tag in html",
+"answers" :{
+  "answer1":"span",
+  "answer2": "aside",
+  "answer3": "div"
+},
+"right_ans": 2,
+"points": 3
+},
+{
+  "question" :"whats the best method to delete an array",
+  "answers" :{
+      "answer1":"clear()",
+      "answer2": "slice()",
+      "answer3": "delete()"
+  },
+  "right_ans": 1,
+  "points": 3
+},
+{
+  "question" :"whats the commonest way of authentification",
+  "answers" :{
+      "answer1":"No auth",
+      "answer2": "Basic auth",
+      "answer3": "Bearers Token"
+  },
+  "right_ans": 2,
+  "points": 3
+},
+{
+  "question" :"which of these methods gets data from a json",
+  "answers" :{
+      "answer1":"get()",
+      "answer2": "filter()",
+      "answer3": "fetch()"
+  },
+  "right_ans": 3,
+  "points": 5
+}]
+

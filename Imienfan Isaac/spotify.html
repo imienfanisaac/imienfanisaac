@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets1/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <div class="wrapper"><h4>Spotify</h4>
+        <div class="side">
+            <button> 
+                <a class="active" id="pics" href="spotify.html"><img src="assets1/css/SPOT.jpg" width="100%" height="80px" alt="spotify logo"></a>
+                  
+            </button> 
+            <button> 
+                <a class="active" id="sech" onclick="renderSearch()" href="#"><i class="fa fa-search"></i> Search</a> 
+            </button> 
+            <button> 
+                <a class="active" onclick="renderLibrary()"href="#"><i class="fa fa-clone"></i> Library</a> 
+            </button> 
+            <hr>
+            <button> 
+                <a class="active" onclick="renderFavorites()" href="#"><i class="fa fa-heart-o"></i> Favorites</a>
+                   
+            </button> 
+            <button> 
+                <a class="active" onclick="renderCreate()"href="#"><i class='fa fa-plus-square-o'></i> Create playlist</a>
+                
+            </button> 
+            <button> 
+                <a class="active" onclick="renderCreate()" href="#"><i class="fa fa-rss"></i> Playlist</a> 
+            </button> 
+            <hr>
+            <p id="demo">Lorem, ipsum dolor sit amet ... </p>
+            
+        </div>
+        <main class="center">
+            <header>
+                <div id="bar"></div>
+                <div class="hed">
+                    <img src="https://media.gettyimages.com/photos/shes-beautiful-in-every-single-way-picture-id1209189181?k=20&m=1209189181&s=612x612&w=0&h=YPysng5cd_bqoww0n_yLuqSkbbvGCE5jm9Pp0GI0Oo0=" alt="userimage">
+                    <h7>Meg Erhun</h7>
+                    <div class="dropdown">
+                        <button onclick="drop()" class="dropbtn"><i class='fa fa-chevron-down'></i></button> 
+                        <div id="Dropdown" class="content"><a href="index.html">Log out</a></div>
+                    </div> 
+                </div>
+                
+            </header>
+            <section class="gradient" id="grad">
+                <img src="assets1/css/artpaint.jpg">
+                <div class="titel" id="gradchild"></div>
+            </section>
+            <div id="listsongs"  class="songs"></div> 
+        </main> 
+        <div class="player">
+            <div class="info">
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBFHWB1DJigVIb0Deil-gwB0GPARQ_kDmeVw&usqp=CAU"></div>
+                <div class="coln">
+                    <p>Track name</p>
+                    <p>Album</p>
+                </div>
+            </div>
+            <div class="icon">
+                <i class="material-icons" style="font-size:20px">&#xe043;</i>
+                <i class="material-icons" style="font-size:20px">&#xe01f;</i>
+                <i id="play-icon" class="material-icons" style="font-size:30px">&#xe039;</i>
+                <i class="material-icons" style="font-size:20px">&#xe020;</i>
+            </div>
+            <div class="volume">
+                <i style="font-size:20px" class="fa">&#xf027;</i>
+                <div><input type="range" value="" min={0} max={100} ></div>
+                <i style="font-size:20px" class="fa">&#xf028;</i>
+            </div>
+        </div> 
+    </div>
+    
+</body>
+<script src="lib/spotify.js"></script>
+<script src="lib/play.js"></script>
+<script src="lib/Song.js"></script>
+</html>

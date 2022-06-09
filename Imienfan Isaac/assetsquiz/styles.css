@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(184, 182, 180);
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(117, 34, 119, 0.898);
+    padding-left: 200px;
+  }
+  
+  .header-cont {
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: rgb(89, 199, 235);
+    margin-left: 100px;
+    text-transform: capitalize;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+  }
+  
+  nav {
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(143, 163, 163, 0.652);
+  }
+  
+  .photo {
+    width: 60%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+  }
+  h2 {
+    font-size: 21px;
+    padding: 0;
+    color: #000;
+  }
+  h5 {
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    font-size: 15px;
+    width: 270px;
+  }
+  main p {
+    font-size: 18px;
+  }
+  main h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 500 ;
+  }
+  .tarjetas {
+    min-width: 100%;
+  }
+  
+  .carddiv:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgb(240, 241, 241);
+    transform: scale(1.1);
+  }
+  
+  .fa.checked {
+    color: yellow !important;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 0 0 50px 50px;
+
+  }
+  .photo #photog img{
+    position: absolute;
+    top: 2%;
+    width: 78%;
+    height: 72%;
+    z-index: 10;
+    left: 13%;
+    border-radius: 49%;
+  }
+  #calc-form {
+    height: 100vh;
+  }
+  
+  #update-form {
+    display: none;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 0.5rem;
+  }
+  .select {
+    width: 100%;
+  }
+  .select p {
+    background-color: gainsboro;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }  
+  .select p:hover {
+    background-color: rgba(159, 156, 156, 0.575);
+  }
+  footer {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    padding: 0.5rem;
+    height: 7.5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }

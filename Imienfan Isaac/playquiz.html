@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Quiz maker</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assetsquiz/styles.css" />
+</head>
+
+<body>
+  <header class="container-fluid p-4">
+    <h1>Quiz maker</h1>   
+    <h3>Create fun quizzes to test your knowlegde</h3>   
+</header>
+  <nav class="pl-5 sticky-top navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav container">
+        <a class="nav-item nav-link ml-5 mr-5" href="main.html">Home</a>
+        <a class="nav-item nav-link mr-5" href="createQuiz.html">Create <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link mr-5" href="updateQuestion.html">Update</a>
+        <a class="nav-item nav-link mr-5" href="checkQuiz.html">Check</a>
+        <a class="nav-item nav-link mr-5" href="delete.html">Delete</a>
+        <a class="nav-item nav-link mr-5" href="playquiz.html">Play</a>
+      </div>
+    </div>
+  </nav>
+  <main class="container d-flex pt-5 justify-content-around">
+    <div class="col-lg-5 col-md-10 col-sm-12 qresults d-flex flex-column align-items-center">
+      <h2 class="mx-auto px-5" id="checkmessage">Play Quiz</h2>
+      <h2 class="mx-auto px-5" id="scoremessage"></h2>
+      <div id="qcards" class=" row row-cols-1 row-cols-md-2 row-cols-lg-3"></div>
+    </div>            
+    
+  </main>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script src="db-config/db-config.js"></script>
+<script src="scripts/playquiz.js"></script>
+
+</html>

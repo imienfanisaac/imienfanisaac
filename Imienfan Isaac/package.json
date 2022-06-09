@@ -1,0 +1,275 @@
+{
+    "playlists" : {
+      "href" : "https://api.spotify.com/v1/browse/categories/party/playlists?offset=0&limit=20",
+      "items" : [ {
+        "collaborative" : false,
+        "description" : "<a href=\"spotify:genre:edm_dance\">Move</a> your feet!",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DXaXB8fQg7xif"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXaXB8fQg7xif",
+        "id" : "37i9dQZF1DXaXB8fQg7xif",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f00000003707af5c8abb5c0b4ef0df2ed",
+          "width" : null
+        } ],
+        "name" : "Dance Party",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDUzOCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXaXB8fQg7xif/tracks",
+          "total" : 125
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DXaXB8fQg7xif"
+      }, {
+        "collaborative" : false,
+        "description" : "Here it is, the playlist for the ultimate throwback bash!",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX7F6T2n2fegs"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX7F6T2n2fegs",
+        "id" : "37i9dQZF1DX7F6T2n2fegs",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f00000003c2fee598041199023d2164b8",
+          "width" : null
+        } ],
+        "name" : "Throwback Party",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDU0OSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX7F6T2n2fegs/tracks",
+          "total" : 150
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DX7F6T2n2fegs"
+      }, {
+        "collaborative" : false,
+        "description" : "It's all about the girls tonight.",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX0Uv9tZ47pWo"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX0Uv9tZ47pWo",
+        "id" : "37i9dQZF1DX0Uv9tZ47pWo",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f0000000324bf380143d949f9bbccc187",
+          "width" : null
+        } ],
+        "name" : "Girls' Night",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDUzOSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX0Uv9tZ47pWo/tracks",
+          "total" : 80
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DX0Uv9tZ47pWo"
+      }, {
+        "collaborative" : false,
+        "description" : "The ultimate rock party playlist!",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX8FwnYE6PRvL"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX8FwnYE6PRvL",
+        "id" : "37i9dQZF1DX8FwnYE6PRvL",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f000000033c52ff5ce471594a9d6b848e",
+          "width" : null
+        } ],
+        "name" : "Rock Party",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDQ5MCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX8FwnYE6PRvL/tracks",
+          "total" : 80
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DX8FwnYE6PRvL"
+      }, {
+        "collaborative" : false,
+        "description" : "The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Kali\n",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX6GwdWRQMQpq",
+        "id" : "37i9dQZF1DX6GwdWRQMQpq",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f000000035acad25afe64f23413d1d674",
+          "width" : null
+        } ],
+        "name" : "Feelin' Myself",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0Njk3NzI5OSwwMDAwMDQ4MzAwMDAwMTdmNzc3ZjMzZjkwMDAwMDE3Zjc1ZDE2MzI0",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX6GwdWRQMQpq/tracks",
+          "total" : 50
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DX6GwdWRQMQpq"
+      }, {
+        "collaborative" : false,
+        "description" : "<a href=\"spotify:genre:edm_dance\">Dance radio</a> hits from the 90s and 00s!",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX8a1tdzq5tbM"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX8a1tdzq5tbM",
+        "id" : "37i9dQZF1DX8a1tdzq5tbM",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f00000003377cd62f388e2de7c3b2b08c",
+          "width" : null
+        } ],
+        "name" : "Dance Classics",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDUxMywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX8a1tdzq5tbM/tracks",
+          "total" : 120
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DX8a1tdzq5tbM"
+      }, {
+        "collaborative" : false,
+        "description" : "<a href=\"spotify:genre:edm_dance\">Shuffle</a> your heart out. Cover: Öwnboss & Sevek",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DWUq3wF0JVtEy"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWUq3wF0JVtEy",
+        "id" : "37i9dQZF1DWUq3wF0JVtEy",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f00000003778d6c0436ea70db435b011e",
+          "width" : null
+        } ],
+        "name" : "Shuffle Syndrome",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NzExMDUxOSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DWUq3wF0JVtEy/tracks",
+          "total" : 100
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DWUq3wF0JVtEy"
+      }, {
+        "collaborative" : false,
+        "description" : "Good vibes for good times!",
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DXa8n42306eJB"
+        },
+        "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXa8n42306eJB",
+        "id" : "37i9dQZF1DXa8n42306eJB",
+        "images" : [ {
+          "height" : null,
+          "url" : "https://i.scdn.co/image/ab67706f000000039dcb4123eb1134fd4742d0c4",
+          "width" : null
+        } ],
+        "name" : "Reggae Party",
+        "owner" : {
+          "display_name" : "Spotify",
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/user/spotify"
+          },
+          "href" : "https://api.spotify.com/v1/users/spotify",
+          "id" : "spotify",
+          "type" : "user",
+          "uri" : "spotify:user:spotify"
+        },
+        "primary_color" : null,
+        "public" : null,
+        "snapshot_id" : "MTY0NjA4NTM3MSwwMDAwMDAyZDAwMDAwMTdmNDI1NTc1ODQwMDAwMDE3MGM0YWRmY2Ux",
+        "tracks" : {
+          "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DXa8n42306eJB/tracks",
+          "total" : 69
+        },
+        "type" : "playlist",
+        "uri" : "spotify:playlist:37i9dQZF1DXa8n42306eJB"
+      } ],
+      "limit" : 20,
+      "next" : null,
+      "offset" : 0,
+      "previous" : null,
+      "total" : 8
+    }
+  }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Quiz maker</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assetsquiz/styles.css" />
+</head>
+
+<body>
+    <header class="container-fluid  p-4">
+        <h1>Your Quiz maker<br> <em>Make nice quizzes for your friends</em></h1>
+       
+    </header>
+    <nav class="pl-5 sticky-top navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav container">
+                <a class="nav-item nav-link ml-5 mr-5" href="main.html">Home</a>
+                <a class="nav-item nav-link mr-5" href="createQuiz.html">Create <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link mr-5" href="updateQuestion.html">Update</a>
+                <a class="nav-item nav-link mr-5" href="checkQuiz.html">Check</a>
+                <a class="nav-item nav-link mr-5" href="#">Delete</a>
+                <a class="nav-item nav-link mr-5" href="#">Play</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container d-flex pt-5 justify-content-around">
+        <div id="update-form" class="col-lg-4 col-md-5 col-sm-8">
+            <h5 id="checkmessage">Update a question</h5>
+            <form id="calc-form">
+                <div class="form-group">
+                    <label class="my-2" for="chosen-question">Question</label>
+                    <input type="text" class="shadow form-control" id="chosen-question"
+                        placeholder="Enter a question" />
+                    <label class="my-2" for="chosen-answer1">Answer 1</label>
+                    <input type="text" class="shadow form-control" id="chosen-answer1"
+                        placeholder="Enter an answer" /><label class="my-2" for="chosen-answer2">Answer 2</label>
+                    <input type="text" class="shadow form-control" id="chosen-answer2" placeholder="Enter an answer" />
+                    <label class="my-2" for="chosen-answer3">Answer 3</label>
+                    <input type="text" class="shadow form-control" id="chosen-answer3" placeholder="Enter an answer" />
+                    <label class="my-2" for="chosen-answer3">Correct answer (nr)</label>
+                    <input type="text" class="shadow form-control" id="chosen-rightans"
+                        placeholder="Enter right answer (number)" />
+                    <div class="my-3">
+                        <h5 for="points">Difficulty rate</h5>
+                        <span id="1" class="chosen ques-point fa fa-star star"></span>
+                        <span id="2" class="chosen ques-point fa fa-star star"></span>
+                        <span id="3" class="chosen ques-point fa fa-star star"></span>
+                        <span id="4" class="chosen ques-point fa fa-star star"></span>
+                        <span id="5" class="chosen ques-point fa fa-star star"></span>
+                    </div>
+                    <button type="button" class="btn btn-md p-1 btn-success btn-block my-3" id="questionbutton"
+                        onclick="updateQues()">
+                        Submit
+                    </button>
+                    <button type="text" class="btn btn-md p-1 btn-success btn-block my-2" id="resetbutton"
+                        onclick="backToQuestions()">
+                        Go back
+                    </button>
+                </div>
+            </form>
+            <div id="ratings"></div>
+        </div>
+        <div id="questionscards" class="col-lg-4 col-md-5 col-sm-8">
+            <h6 style="margin:0 1rem 2rem 3rem">Click on question to update</h6>
+        </div>
+    </main>
+    <footer>
+        <div class="container">Site created using Firebase and Bootstrap</div>
+    </footer>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script src="db-config/db-config.js"></script>
+<script src="scripts/updateQuestion.js"></script>
+
+</html>

@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    display: grid;
+    grid-template-areas: 'side main main main main main main'
+                        'player player player player player player player';
+
+}
+.side {
+    grid-area: side;
+    position: relative;
+    padding: 20px 10px;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+   
+}
+.side::-webkit-scrollbar{
+    display: none;
+}
+.side a:hover {
+    color: rgb(212, 212, 212);
+}
+h4 {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    z-index: 500;
+}
+button {
+    background-color: black;
+    border: none;
+    color: gray;
+    padding: 5px 1px;
+    font-size: 16px; 
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 7px;
+    position: relative;
+}
+
+.side a{
+    text-decoration: none;
+    color: gray;
+    margin: 0 5px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+hr {
+    border-top: 0.5px;
+    border-color: rgb(70, 68, 68);
+}
+.side p {
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    padding-right:20px;
+}
+.side p:hover {
+    color: rgb(212, 212, 212);
+}
+form {
+    display: inline-flex;
+    z-index: 3;
+    border: none;
+
+}
+#bar button {
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+}
+#bar input[type=text] {
+    border: none;    
+    width: 200px;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+.center {
+    grid-area: main;
+    flex-grow: inherit;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+
+}
+.center::-webkit-scrollbar{
+    display: none;
+}
+.gradient img {
+    width: 50%; 
+    box-shadow: 0 10px 10px;
+    height: 50;
+}
+header {
+    position: relative;
+}
+.hed{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    width:150px;
+    border-radius: 20px;
+    position: absolute;
+    font-size: smaller;
+    height: 50px ;
+    top: 0%;
+    right: 30px;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 7px;
+}
+.hed img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.dropbtn {
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: smaller;
+    border: none;
+    cursor: pointer;
+  }
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.content {
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    z-index: 1;
+    left: -75%;
+    margin-top: 12px;
+}
+  
+  /* Links inside the dropdown */
+.content a {
+    color: rgb(162, 162, 162);
+    background-color: rgba(0, 0, 0, 0.806);
+    padding: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    margin-right: 40px;
+}
+.content a:hover {
+    background-color: rgb(62, 50, 21);
+}
+.show {display:block;}
+
+.gradient {
+    height: 330px;
+    background-image: linear-gradient(greenyellow, black);
+    display: flex; 
+    align-items: end;
+    margin-bottom: 50px;
+    
+}
+.gradient p {
+    color: rgb(128, 253, 114);
+    padding: 15px;
+}
+.gradient  img{
+    height: 25vh;
+    width: 100%;
+}
+.song {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.song::-webkit-scrollbar{
+    display: none;
+}
+.song-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.song-child:hover{
+    background-color: rgba(53, 104, 146, 0.253);
+    border-radius: 5px;
+}
+.song-child img {
+    height: 40px;
+    width: 40px;
+}
+.song-child p {
+    font-size: medium;
+    color: gray;
+    font-size: 16px;
+}
+.child {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.player {
+    display: grid;
+    grid-area: player;
+    grid-template-areas: 'info  icon volume';
+    height: 40px;
+    width: 98%;
+    background-image: linear-gradient(black, rgb(49, 53, 49));
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    color: white;
+    margin: 0 auto;
+}
+.info {
+    display:inline-flex;
+    grid-area: info;
+    justify-content: flex-start;
+    width: 100%;
+    grid-gap: 10px;
+}
+.info img {
+    height: 40px;
+    width: 40px;
+}
+.icon {
+    display: flex;
+    grid-area: icon;
+    justify-content: center;
+    grid-gap: 15px;
+}
+.volume {
+    display: flex;
+    grid-area: volume;
+    justify-content: flex-end;
+    grid-gap: 10px;
+}
+.volume,.icon i,input[type=range] {
+    cursor: pointer;
+}
+.coln {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.coln p {
+    padding: 0;
+    margin: 0;
+}
+
+/* homepage css starts here */
+
+.categoriesAllsong {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    background-color:rgba(95, 14, 14, 0.637);
+}
+.categoriesRow{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-evenly;
+    height: 300px;
+    border-radius: 5px;
+}
+.box {
+    width: 17%;
+    background-color: rgba(37, 34, 34, 0.322);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.box:hover {
+    background-color: rgba(93, 68, 68, 0.466);
+    color: white;
+}
+.box img {
+    width: 91%;
+    height: 80%;
+}
+.box h6 {
+    color: rgba(243, 243, 243, 0.835);
+    font-size: 17px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.box p {
+    color: rgba(243, 243, 243, 0.835);
+    font-size: 12px;
+}
+.categoriesAllsong h4 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+
+.musicOff img {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    h4 { 
+        font-size: 14px;
+        top: 12%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .side { 
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .side p, .side a{ 
+        font-size: 12px;
+
+    }
+    .center {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .player {
+        width: 100%;
+        padding: 2px;
+        margin: 0;
+    }
+    .player img {
+        display: none;
+    }
+    .col {
+        display: none;
+    } 
+    .song-child p { 
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        text-overflow: ellipsis;
+    }
+    .side p, .side a, button {
+        padding: 10px 0;
+        margin: 0;
+        padding-bottom: 2px;
+    }
+    .song-child {
+        padding: 10px 0;
+        width: 85%;
+    }
+    .song {
+        margin: 0;
+        padding-right: 10px;
+    }
+    .gradient img {
+        height: 100%;
+        width: 100%;
+    }
+    .gradient {
+        height: 180px;
+    }
+    .hed {
+        width: 40%;
+    }
+    .player i {
+        font-size: 17px !important;
+        padding: 2px;
+    }
+    .player p {
+        font-size: 13px;
+    }
+    .player input[type=range] {
+        width: 70px;
+        margin: 0;
+    }
+    .icon, .volume {
+        grid-gap: 8px;
+        justify-content: center;
+    }
+    h4 {
+        font-size: 15px;
+        top: 2%;
+        left: 5%;
+    }
+    #pics img {
+        width: 80%;
+
+    }
+}
+
+
+
+

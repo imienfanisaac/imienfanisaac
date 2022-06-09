@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(184, 182, 180);
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: 130px;
+    width: 100%;
+    background-color: rgba(167, 25, 172, 0.756);
+    padding-left: 200px;
+  }
+  
+  .header-cont {
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: x-large;
+    color: white;
+    margin-left: 100px;
+  }
+  
+  em {
+    font-size: medium;
+    color: white;
+  }
+  
+  nav {
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(143, 163, 163, 0.652);
+  }
+  
+  #quiz-image {
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  h5 {
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    font-size: medium;
+  }
+  main p {
+    font-size: 18px;
+  }
+  main h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 500 ;
+  }
+  .tarjetas {
+    min-width: 100%;
+  }
+  
+  .carddiv:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgb(240, 241, 241);
+    transform: scale(1.1);
+  }
+  
+  .fa.checked {
+    color: yellow !important;
+  }
+  
+  .photo img {
+    margin-bottom: 10%;
+    width: 100%;
+    position: absolute;
+
+  }
+  
+  #calc-form {
+    height: 100vh;
+  }
+  
+  #update-form {
+    display: none;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 0.5rem;
+  }
+  
+  footer {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    padding: 0.5rem;
+    height: 7.5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
